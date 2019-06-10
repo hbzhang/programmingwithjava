@@ -1,0 +1,11 @@
+{
+  "name": "docs-api",
+  "version": "0.0.0",
+  "description": "tbc",
+  "repository": "git@github.com:TryGhost/docs-api.git",
+  "author": "Ghost Foundation",
+  "license": "MIT",
+  "scripts": {
+    "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn publish && git push --follow-tags; fi"
+  }
+}

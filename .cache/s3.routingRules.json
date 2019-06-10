@@ -1,0 +1,1 @@
+[{"Condition":{"KeyPrefixEquals":"concepts","HttpErrorCodeReturnedEquals":"404"},"Redirect":{"ReplaceKeyWith":"concepts/introduction","HttpRedirectCode":"301"}}]

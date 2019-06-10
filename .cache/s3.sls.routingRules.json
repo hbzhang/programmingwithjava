@@ -1,0 +1,1 @@
+[{"RoutingRuleCondition":{"KeyPrefixEquals":"concepts","HttpErrorCodeReturnedEquals":"404"},"RedirectRule":{"ReplaceKeyWith":"concepts/introduction","HttpRedirectCode":"301"}}]
